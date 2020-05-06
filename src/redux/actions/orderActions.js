@@ -1,7 +1,7 @@
 import axios from "../../axios-orders";
 
 export const loadOrders = userId => {
-  return function(dispatch, getState) {
+  return function (dispatch, getState) {
     // Захиалгыг татаж эхлэлээ гэдгийг мэдэгдэнэ.
     // Энийг хүлээж аваад Spinner ажиллаж эхлэнэ.
     dispatch(loadOrdersStart());
@@ -40,7 +40,7 @@ export const loadOrdersError = error => {
 
 // Захиалгыг хадгалах
 export const saveOrder = newOrder => {
-  return function(dispatch, getState) {
+  return function (dispatch, getState) {
     // Spinner ergelduulne
     dispatch(saveOrderStart());
 

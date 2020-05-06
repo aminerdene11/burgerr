@@ -12,7 +12,7 @@ export const signupUser = (email, password) => {
 
     axios
       .post(
-        "https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=AIzaSyCEmDZW6k2XJlQritKoYeJG14ExYa1rRSM",
+        "https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=AIzaSyAAP8OP3mNpgPkzkt0LqI0QZ8XQQTaMs5E",
         data
       )
       .then(result => {

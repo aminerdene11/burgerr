@@ -2,7 +2,7 @@ import axios from "axios";
 import * as actions from "./signupActions";
 
 export const loginUser = (email, password) => {
-  return function(dispatch) {
+  return function (dispatch) {
     dispatch(loginUserStart());
 
     const data = {
@@ -13,7 +13,7 @@ export const loginUser = (email, password) => {
 
     axios
       .post(
-        "https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyCEmDZW6k2XJlQritKoYeJG14ExYa1rRSM",
+        "https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyAAP8OP3mNpgPkzkt0LqI0QZ8XQQTaMs5E",
         data
       )
       .then(result => {
