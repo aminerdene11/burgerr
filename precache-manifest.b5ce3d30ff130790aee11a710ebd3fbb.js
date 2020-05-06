@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "62763251d199ca48991b58b727cd81e9",
+    "revision": "85b749fed6e493f935a3e9a7b5b9122e",
     "url": "/burgerr/index.html"
   },
   {
-    "revision": "aedc0e51d58ccddf33d3",
+    "revision": "9c684384cb3ef50bd89f",
     "url": "/burgerr/static/css/main.e33d8540.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/burgerr/static/js/2.a7103e70.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "aedc0e51d58ccddf33d3",
-    "url": "/burgerr/static/js/main.221a8378.chunk.js"
+    "revision": "9c684384cb3ef50bd89f",
+    "url": "/burgerr/static/js/main.7104f91e.chunk.js"
   },
   {
     "revision": "828696eec9c594ed86d9",
